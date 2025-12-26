@@ -1,0 +1,73 @@
+🤖 n8n Telegram AI Chatbot Workflow
+
+This repository contains an n8n automation workflow that builds an AI-powered Telegram bot using OpenAI and LangChain inside n8n.
+
+🚀 What this workflow does
+
+Listens to incoming messages from a Telegram bot
+
+Sends the user message to an AI Agent (LangChain)
+
+Uses OpenAI Chat Model to generate intelligent responses
+
+Automatically replies back to the user on Telegram
+
+🧩 Workflow Components
+
+Telegram Trigger
+Triggers the workflow whenever a new Telegram message is received.
+
+AI Agent (LangChain)
+Processes the incoming message and decides how to respond using AI logic.
+
+OpenAI Chat Model
+Provides natural language understanding and response generation.
+
+Telegram Send Message
+Sends the AI-generated reply back to the same chat.
+
+🛠 Tech Stack
+
+n8n (Workflow Automation)
+
+Telegram Bot API
+
+OpenAI Chat Model
+
+LangChain Agent
+
+📦 Use Cases
+
+Telegram AI chatbot
+
+Customer support automation
+
+FAQ bot
+
+Personal assistant bot
+
+Learning & experimentation with n8n + AI
+
+⚙️ Setup Instructions
+
+Import the JSON workflow into your n8n instance
+
+Configure:
+
+Telegram Bot credentials
+
+OpenAI API credentials
+
+Activate the workflow
+
+Start chatting with your Telegram bot 🎉
+
+📄 File Included
+
+WORKFLOW-2(TELEGRAM BOT).json – Importable n8n workflow
+
+👨‍💻 Author
+
+Basant Kumar Sah
+Bachelor of Engineering (IT)
+Aspiring n8n Automation Developer
